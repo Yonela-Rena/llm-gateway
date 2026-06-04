@@ -1,15 +1,15 @@
 # LLM Gateway API
 
-A beginner-friendly FastAPI project that simulates an AI chat gateway.
+A beginner-friendly FastAPI project that simulates an AI chat gateway. The project demonstrates API development, request validation, modular project structure, error handling, and API documentation using FastAPI.
 
 ## Features
 
-- FastAPI backend
-- Chat endpoint
-- JSON responses
-- Error handling
-- Modular folder structure
-- Swagger API documentation
+* FastAPI backend
+* Chat endpoint
+* JSON responses
+* Error handling
+* Modular folder structure
+* Swagger API documentation
 
 ## Project Structure
 
@@ -25,7 +25,10 @@ llm-gateway/
 │   │
 │   └── main.py
 │
-├── venv/
+├── screenshots/
+│   ├── swagger-docs.png
+│   └── chat-response.png
+│
 ├── requirements.txt
 ├── .gitignore
 └── README.md
@@ -92,21 +95,33 @@ Response:
 
 ## API Docs
 
-FastAPI automatically provides Swagger docs:
+FastAPI automatically provides Swagger documentation:
 
 ```bash
 http://127.0.0.1:8000/docs
 ```
 
+## Screenshots
+
+### Swagger Documentation
+
+![Swagger Docs](screenshots/swagger-docs.png)
+
+### Chat Endpoint Response
+
+![Chat Response](screenshots/chat-response.png)
+
 ## Future Improvements
 
-- Connect to real LLM APIs
-- Add authentication
-- Docker support
-- Deployment
-- Database integration
+* Connect to real LLM APIs
+* Add authentication
+* Docker support
+* Deployment
+* Database integration
 
 ## Author
 
-Yonela Mhloluvele
+**Yonela Mhloluvele**
+
+BSc Chemistry & Computer Science
 Aspiring AI Engineer
